@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Amr Khalid - Portfolio</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">Amr Khalid</a>
+    <nav>
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-img">
+      <img src="main.jpg" alt="Amr Khalid">
+    </div>
+    <div class="home-content">
+      <h1>Hi, I'm <span>Amr Khalid</span></h1>
+      <h3 class="typing-text">I'm a <span></span></h3>
+      <p>
+        Flutter Developer | Mobile App Developer passionate about building high-quality cross-platform applications.
+        I specialize in responsive UIs, Firebase integration, and scalable state management with Provider & Riverpod.
+        I thrive on writing clean, maintainable code and delivering top-notch performance with seamless user experiences.
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="#projects" class="btn">Hire Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-card">
+      <p>
+        I am a passionate <span class="highlight">Flutter Developer</span> with experience in building
+        high-quality cross-platform mobile applications for <span class="highlight">Android</span>,
+        <span class="highlight">iOS</span>, and <span class="highlight">Web</span>. I specialize in crafting
+        responsive and intuitive UIs, integrating <span class="highlight">Firebase services</span>, and implementing
+        scalable state management solutions using <span class="highlight">Provider</span> and <span class="highlight">Riverpod</span>.
+      </p>
+      <p>
+        I thrive on writing clean, maintainable code and delivering apps that combine
+        top-notch performance with a seamless user experience. I enjoy turning complex
+        ideas into elegant mobile solutions that delight users.
+      </p>
+      <a href="#projects" class="btn about-btn">View My Projects</a>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="education-card">
+      <h3>Nile University</h3>
+      <p><strong>Bachelor of Science in Computer Science</strong></p>
+      <p>Expected Graduation: 2026 | GPA: 3.54</p>
+      <p>
+        I am pursuing my degree in Computer Science with a strong focus on mobile app development, 
+        big data, machine learning, and software engineering. My academic journey includes building impactful 
+        projects, competing in ICPC 2024, and earning certifications in Flutter Development and Logic Programming.
+      </p>
+      <div class="education-images">
+        <img src="uni1.jpg" alt="Nile University 1">
+        <img src="uni2.jpg" alt="Nile University 2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="exp-card">
+      <h3>Logic Programming Trainee</h3>
+      <p><strong>Nile University (2024)</strong></p>
+      <p>Completed certified training in Logic Programming, modeling smart solutions using logic rules and problem-solving.</p>
+    </div>
+    <div class="exp-card">
+      <h3>Flutter Developer Intern</h3>
+      <p><strong>Route Academy (Jan 2025 – May 2025)</strong></p>
+      <p>Built and deployed cross-platform mobile apps with responsive UIs, Firebase, and state management.</p>
+    </div>
+    <div class="exp-card">
+      <h3>Team Programmer</h3>
+      <p><strong>ICPC 2024</strong></p>
+      <p>Represented Nile University, enhancing algorithmic problem-solving, coding, and debugging under time limits.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+
+    <!-- Project 1 -->
+    <div class="project-card project-flex" id="project1">
+      <div class="project-text">
+        <h3>Hotel Management System (HMS)</h3>
+        <p>
+          HMS Project: A Django-based Hotel Management System that allows users to search, view, and
+          book hotel rooms online. It features user registration, profile management, room availability
+          checks, payment integration with Razorpay, and automated email confirmations.
+          The project includes an admin panel for managing hotel rooms, bookings, and image galleries,
+          providing a complete end-to-end hotel booking solution.
+        </p>
+        <a href="#project2" class="btn">Next Project</a>
+      </div>
+      <div class="project-images">
+        <img src="hetel_1.jpg" alt="Hotel Management Screenshot 1">
+        <img src="hetel_2.jpg" alt="Hotel Management Screenshot 2">
+        <img src="hetel_3.jpg" alt="Hotel Management Screenshot 3">
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card project-flex" id="project2">
+      <div class="project-text">
+        <h3>Turing Machine Visualisation</h3>
+        <p>
+          This project is a Python-based simulation tool that helps visualize how a Turing Machine works. 
+          It allows users to test different types of input strings and see how the machine reads, writes, 
+          and moves on a virtual tape. At the same time, it displays the state transitions visually as a graph.
+        </p>
+        <a href="#project3" class="btn">Next Project</a>
+      </div>
+      <div class="project-images">
+        <img src="picture_pr2_1.jpg" alt="Turing Machine Screenshot 1">
+        <img src="picture_pr2_2.jpg" alt="Turing Machine Screenshot 2">
+        <img src="picture_pr2_3.jpg" alt="Turing Machine Screenshot 3">
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card project-flex" id="project3">
+      <div class="project-text">
+        <h3>Online Coffee Shop</h3>
+        <p>
+          Online Coffee Shop – A digital platform where customers can browse the menu,
+          place orders, and pay online. Built using Python, HTML, CSS, JavaScript, with PostgreSQL 
+          for database management. Designed for coffee enthusiasts, busy professionals, and students, 
+          it features a user-friendly interface, product descriptions, and a seamless ordering system. 
+          This project demonstrates our team’s ability to create robust, interactive web applications 
+          from concept to deployment.
+        </p>
+        <a href="#achievements" class="btn">View Achievements</a>
+      </div>
+      <div class="project-images">
+        <img src="picture_pr3_1.jpg" alt="Coffee Shop Screenshot 1">
+        <img src="picture_pr3_2.jpg" alt="Coffee Shop Screenshot 2">
+        <img src="picture_pr3_3.jpg" alt="Coffee Shop Screenshot 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <h2 class="section-title">Key Achievements</h2>
+    <div class="achievements-container">
+      <div class="achievement-card">
+        <i class="fa-solid fa-trophy"></i>
+        <h3>Flutter Developer Certification</h3>
+        <p>Route Academy</p>
+      </div>
+      <div class="achievement-card">
+        <i class="fa-solid fa-certificate"></i>
+        <h3>Logic Programming Certificate</h3>
+        <p>Nile University</p>
+      </div>
+      <div class="achievement-card">
+        <i class="fa-solid fa-code"></i>
+        <h3>ICPC Participant 2024</h3>
+        <p>Represented Nile University in the International Collegiate Programming Contest</p>
+      </div>
+      <div class="achievement-card">
+        <i class="fa-solid fa-graduation-cap"></i>
+        <h3>Academic Excellence</h3>
+        <p>Consistently ranked among top students in programming courses</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact">
+  <h2 class="section-title">Let’s Connect</h2>
+  <div class="contact-container">
+    <div class="contact-card">
+      <i class="fa-solid fa-phone"></i>
+      <h3>Phone</h3>
+      <p>+20 1067472260</p>
+    </div>
+    <div class="contact-card">
+      <i class="fa-solid fa-envelope"></i>
+      <h3>Email</h3>
+      <p>amr.khalidd45@gmail.com</p>
+    </div>
+    <div class="contact-card">
+      <i class="fa-solid fa-location-dot"></i>
+      <h3>Address</h3>
+      <p>Awseem, Giza</p>
+    </div>
+  </div>
+</section>
+</body>
+</html>
