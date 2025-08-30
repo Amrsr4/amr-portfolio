@@ -526,6 +526,10 @@ span {
   .contact-container {
     grid-template-columns: 1fr;
   }
+
+  .education-images img {
+    width: 80%;
+  }
 }
 
 /* ===== Education Section ===== */
@@ -583,10 +587,32 @@ span {
   transform: scale(1.05);
   box-shadow: 0 0 25px #b74b4b;
 }
+.contact-form {
+  margin-top: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
-/* Responsive Education */
-@media (max-width: 995px) {
-  .education-images img {
-    width: 80%;
-  }
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid #b74b4b;
+  background: #0d0d0d;
+  color: white;
+  font-size: 1.6rem;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+.contact-form button {
+  align-self: flex-end;
 }
